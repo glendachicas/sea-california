@@ -1,0 +1,26 @@
+.topnav{
+    position: sticky;
+    border: 5px solid gray;
+    width:320;
+    padding:25px;
+    margin:0;
+    background:lightgray;
+    text-align: center;
+}
+.navoptions{
+    border:1px solid black;
+    padding: 5px;
+    width:auto;
+    
+
+}
+.topnav a{
+    float:center;
+    color:black;
+    text-align:center;
+    padding:14px 16px;
+}
+.topnav a.active{
+    background-color;
+    color:;
+}
