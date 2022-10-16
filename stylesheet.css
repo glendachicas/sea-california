@@ -21,6 +21,31 @@
     padding:14px 16px;
 }
 .topnav a.active{
-    background-color;
-    color:;
+    background-color:aqua;
+    color:black;
 }
+
+#socal{
+    background-image: url("https://www.theevolista.com/wp-content/uploads/2021/10/Diamond-Valley-Lake-Southern-California.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    max-width: 1000px;
+    display:grid;
+    margin-top: 15px;
+    background-position: 75% 75%;
+    justify-content: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 2.75rem;
+}
+
+#socal h1{
+    color:white;
+    display: grid;
+    min-height: 18px;
+    align-self: center;
+    justify-self: center;
+}
+
+
