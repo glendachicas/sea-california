@@ -44,26 +44,37 @@
 }
 
 #socalplaces{
-    max-width: 700px;
+    max-width: 1500px;
+    display: grid;
+    grid-template-areas: "universal olvera"
+                          "santamonicapier bigbear" ;
+    grid-auto-flow: row;
+    row-gap: 20px;
+    column-gap: 20px;
 }
 
 .universal{
     grid-area: universal;
-    opacity: 1;
 }
 
+.universal img{
+    width: clamp(300px, 400px, 500px);
+}
 .olvera{
     grid-area:olvera;
-    opacity: 1;
 }
 
 .santamonicapier{
     grid-area:santamonicapier;
-    opacity: 1;
 }
 
 .bigbear{
     grid-area:bigbear;
-    opacity: 1;
 }
 
+@media screen and (min-width:480px) and (max-width:1600px){
+    .socalimg img{
+       width: clamp(400px, 500px, 600px);
+       height: clamp(300px, 400px, 500px);
+    }
+}
