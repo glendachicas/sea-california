@@ -41,9 +41,11 @@
     display: grid;
     justify-items: center;
     align-items: center;
+    text-shadow: 0 5px 10px black;
 }
 
 #socalplaces{
+    max-width: 1500px;
     max-width: 1500px;
     display: grid;
     grid-template-areas: "universal olvera"
@@ -72,9 +74,66 @@
     grid-area:bigbear;
 }
 
-@media screen and (min-width:480px) and (max-width:1600px){
+@media screen and (min-width:480px) and (max-width:1054px){
     .socalimg img{
        width: clamp(400px, 500px, 600px);
        height: clamp(300px, 400px, 500px);
     }
+}
+
+@media screen and (min-width:1054px){
+    .socalimg img{
+       width: clamp(400px, 500px, 600px);
+       height: clamp(300px, 400px, 500px);
+    }
+}
+
+#unibanner{
+    background-image: url("https://res.klook.com/image/upload/q_85/c_fill,w_750/v1645187772/blog/nr8wvlkwlhnuz4c1ufvj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height:500px;
+    max-width: auto;
+    margin-top: 15px;
+    background-position: 75% 75%;
+    font-weight: 700;
+    font-size: 2.75rem;
+    color:white;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-shadow: 0 5px 10px black;
+}
+
+.uni_info {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uni_info::before {  
+      margin-top: 20px;  
+      content: "";
+      background-image: url('https://nypost.com/wp-content/uploads/sites/2/2020/10/universal-studios-layoffs-e1602685742896.jpg?quality=75&strip=all');
+      background-size: cover;
+      position: absolute;
+      background-repeat: no-repeat;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
+}
+
+.uni_info p {
+  position: relative;
+  color: #ffffff;  
+  font-size: 1rem;
+  line-height: 0.9;
+  text-align: center;
 }
