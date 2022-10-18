@@ -137,6 +137,26 @@
   line-height: 0.9;
   text-align: center;
 }
+
+#olverabanner{
+    background-image: url("https://3.bp.blogspot.com/-_Z_JYeGIc28/XKvhaQZvfCI/AAAAAAAAORw/74NTCfktDC01rRoI-so9sXQzzky86uGhgCLcBGAs/s1600/Olvera-191.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height:500px;
+    max-width: auto;
+    margin-top: 15px;
+    background-position: 75% 65%;
+    font-weight: 700;
+    font-size: 2.75rem;
+    color:white;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-shadow: 0 5px 10px black;
+}
+
 .north_calbanner{
 
 }
