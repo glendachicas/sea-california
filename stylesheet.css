@@ -158,14 +158,14 @@
 }
 
 #venicebeachbanner{
-    background-image: url("http://dolly.com/blog/wp-content/uploads/2018/10/los-angeles-neighborhoods-santa-monica.jpg");
+    background-image: url("https://img.freepik.com/premium-photo/panoramic-shot-venice-beach-boardwalk-los-angeles-california_181624-49872.jpg?w=2000");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
     max-height:500px;
     max-width: auto;
     margin-top: 15px;
-    background-position: 75% 65%;
+    background-position: 75% 15%;
     font-weight: 700;
     font-size: 2.75rem;
     color:white;
