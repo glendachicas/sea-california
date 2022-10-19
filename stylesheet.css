@@ -157,6 +157,25 @@
     text-shadow: 0 5px 10px black;
 }
 
+#venicebeachbanner{
+    background-image: url("http://dolly.com/blog/wp-content/uploads/2018/10/los-angeles-neighborhoods-santa-monica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height:500px;
+    max-width: auto;
+    margin-top: 15px;
+    background-position: 75% 65%;
+    font-weight: 700;
+    font-size: 2.75rem;
+    color:white;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-shadow: 0 5px 10px black;
+}
+
 .north_calbanner{
 
 }
