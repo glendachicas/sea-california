@@ -89,14 +89,14 @@
 }
 
 #unibanner{
-    background-image: url("https://res.klook.com/image/upload/q_85/c_fill,w_750/v1645187772/blog/nr8wvlkwlhnuz4c1ufvj.jpg");
+    background-image: url("https://img.traveltriangle.com/attachments/pictures/898523/original/universal-studios-hollywood.jpg?tr=w-1291,h-332");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
     max-height:500px;
     max-width: auto;
     margin-top: 15px;
-    background-position: 75% 75%;
+    background-position: 75% 60%;
     font-weight: 700;
     font-size: 2.75rem;
     color:white;
@@ -105,37 +105,6 @@
     justify-items: center;
     align-items: center;
     text-shadow: 0 5px 10px black;
-}
-
-.uni_info {
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.uni_info::before {  
-      margin-top: 20px;  
-      content: "";
-      background-image: url('https://nypost.com/wp-content/uploads/sites/2/2020/10/universal-studios-layoffs-e1602685742896.jpg?quality=75&strip=all');
-      background-size: cover;
-      position: absolute;
-      background-repeat: no-repeat;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.75;
-}
-
-.uni_info p {
-  position: relative;
-  color: #ffffff;  
-  font-size: 1rem;
-  line-height: 0.9;
-  text-align: center;
 }
 
 #olverabanner{
