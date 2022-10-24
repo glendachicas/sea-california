@@ -221,3 +221,21 @@ html{
     align-items: center;
     text-shadow: 0 5px 10px black;
 }
+#sonoma_calbanner{
+    background-image: url(https://images.unsplash.com/photo-1603229663670-fcd42046959f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmFwYSUyMHZhbGxleXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height:500px;
+    max-width: auto;
+    margin-top: 15px;
+    background-position: 75% 65%;
+    font-weight: 700;
+    font-size: 2.75rem;
+    color:white;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-shadow: 0 5px 10px black;
+}
