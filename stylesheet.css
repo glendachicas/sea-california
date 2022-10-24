@@ -1,3 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
 .topnav{
     position: sticky;
     border: 5px solid gray;
@@ -60,7 +67,7 @@
 }
 
 .universal img{
-    width: clamp(300px, 400px, 500px);
+    width: clamp(300px, 1.5vw, 500px);
 }
 .olvera{
     grid-area:olvera;
@@ -70,14 +77,11 @@
     grid-area:venicebeachboardwalk;
 }
 
-.bigbear{
-    grid-area:bigbear;
-}
 
 @media screen and (min-width:480px) and (max-width:1054px){
     .socalimg img{
-       width: clamp(400px, 500px, 600px);
-       height: clamp(300px, 400px, 500px);
+       width: clamp(400px, 1.5vw, 600px);
+       height: clamp(300px, 2vw, 500px);
     }
 }
 
