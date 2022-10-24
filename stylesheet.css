@@ -185,14 +185,14 @@ html{
 }
 
 #bookwithusbanner{
-    background-image: url("https://img.traveltriangle.com/attachments/pictures/898523/original/universal-studios-hollywood.jpg?tr=w-1291,h-332");
+    background-image: url("https://image.cnbcfm.com/api/v1/image/105833938-1554408195028gettyimages-882012696.jpeg?v=1596136810&w=1920&h=1080");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
     max-height:500px;
     max-width: auto;
     margin-top: 15px;
-    background-position: 75% 60%;
+    background-position: 75% 2%;
     font-weight: 700;
     font-size: 2.75rem;
     color:white;
