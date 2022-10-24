@@ -60,6 +60,7 @@ html{
     grid-auto-flow: row;
     row-gap: 20px;
     column-gap: 20px;
+    margin: 22px;
 }
 
 .universal{
@@ -91,6 +92,18 @@ html{
        height: clamp(300px, 400px, 500px);
     }
 }
+
+@media screen and (max-width: 887px){
+     #socalplaces{
+        grid-template-areas: "universal" 
+                             "olvera"
+                             "venicebeachboardwalk" ;
+        justify-items: center;
+        max-width: auto;
+        min-width: auto;
+    }
+
+     }
 
 #unibanner{
     background-image: url("https://img.traveltriangle.com/attachments/pictures/898523/original/universal-studios-hollywood.jpg?tr=w-1291,h-332");
