@@ -221,3 +221,9 @@ html{
     align-items: center;
     text-shadow: 0 5px 10px black;
 }
+
+input[type="checkbox"]
+{
+    vertical-align:middle;
+}
+

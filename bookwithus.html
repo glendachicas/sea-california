@@ -20,8 +20,79 @@
         <section id="bookwithusbanner">
           <h1>Book with Us</h1>
         </section>
-        
-    </main>
-	<script src="index.js"></script>
+        <div id="Order"><h2>Submit a Booking Request Here!</h2>
+          <form action="#send" method="POST">
+              <section class="name">
+                  <label for="cust_name">Name</label>
+                      <br>
+                      <input type="text" name="cust__name" id="cust_name" required>
+              </section>
+              <section class="address">
+                  <label for="cust_address">Address</label>
+                      <br>
+                      <input type="text" name="cust_address" id="cust_address" required>
+              </section>
+              <section class="city">
+                  <label for="cust_city">City</label>
+                      <br>
+                      <input type="text" name="cust_city" id="cust_city" required>
+              </section>
+              <section class="state">
+                  <label for="cust_state">State</label>
+                      <br>
+                      <input type="text" name="cust_state" id="cust_state" required>
+              </section>
+              <section class="zipcode">
+                  <label for="cust_zip">Zip Code</label>
+                      <br>
+                      <input type="number" name="cust_zip" id="cust_zip" required pattern="[0-9]{5}">
+              </section>
+              <section class="phone">
+                  <label for="cust_phone">Phone Number (numbers only)</label>
+                      <br>
+                      <input type="number" name="cust_phone" id="cust_phone" required pattern="[0-9]{10}">
+              </section>
+              <section class="picklocation">
+                  <p>Which locations(s) would you like to request a booking for?</p>
+                          <label for="Lake Tahoe">Lake Tahoe</label>
+                              <input type="checkbox" id="Lake Tahoe" name="flavor" value="Lake Tahoe">
+                          <label for="Olvera Street">Olvera Street</label>
+                              <input type="checkbox" id="Olvera Street" name="flavor" value="Olvera Street">
+                          <label for="San Francisco">San Francisco</label>
+                              <input type="checkbox" id="San Francisco" name="flavor" value="San Francisco">
+                          <label for="Sonoma/Napa County">Sonoma/Napa County</label>
+                              <input type="checkbox" id="sonoma_napa" name="flavor" value="sonoma_napa">
+                          <label for="universal_studios_hollywood">Universal Studios Hollywood</label>
+                              <input type="checkbox" id="universal_studios_hollywood" name="flavor" value="universal_studios_hollywood">
+                          <label for="Venice Beach Boardwalk">Venice Beach Boardwalk</label>
+                              <input type="checkbox" id="venice_beach_boardwalk" name="flavor" value="venice_beach_boardwalk">
+              </section>
+              <br>
+              <section class="picknumdays">
+                  <label for="num_days">How many days do you want your visit to be?</label>
+                      <input type="number" id="num_days" name="num_days" min="1" required>
+              </section>
+              <br>
+              <section class="special_request">
+                  <label for="special_request">Special Requests?</label>
+                      <br>
+                      <textarea id="special_request" name="special_request" row="5" cols="30"></textarea>
+              </section>
+              </section>
+              <br>
+              <section class="submission">
+                  <input type="submit" onClick="myFunction()"/>
+                  <script>
+                    document.getElementById("myBtn").addEventListener("click", myFunction);
+                    function myFunction() {
+                      window.location.href="thankyou.html";
+                    }
+                  </script>
+                  
+              </section>
+            
+            </script>
+      </form>
+    </div>
   </body>
 </html>
