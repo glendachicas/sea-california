@@ -183,3 +183,23 @@ html{
 .northcalplaces{ 
 
 }
+
+#bookwithusbanner{
+    background-image: url("https://img.traveltriangle.com/attachments/pictures/898523/original/universal-studios-hollywood.jpg?tr=w-1291,h-332");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height:500px;
+    max-width: auto;
+    margin-top: 15px;
+    background-position: 75% 60%;
+    font-weight: 700;
+    font-size: 2.75rem;
+    color:white;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-shadow: 0 5px 10px black;
+}
+
