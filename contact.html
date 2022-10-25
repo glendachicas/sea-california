@@ -20,7 +20,37 @@
         <section id="contactbanner">
           <h1>Contact Us</h1>
         </section>
-        
+        <h2 id="contact">Contact</h2>
+            <div class="parainfo">
+                <p>Send us a message!</p>
+            </div>
+            <div id="connect">
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    <section>
+                        <label for="username">Name:</label>
+                            <br>
+                            <textarea id="username" name="username" required></textarea>
+                    </section>
+                    <section>
+                        <label for="email">Your Email:</label>
+                            <br>
+                            <textarea id="email" name="email" required></textarea>
+                    </section>
+                    <section>
+                        <label for="message">Message:</label>
+                            <br>
+                            <textarea id="message" name="message" rows="5"cols="30" required></textarea>
+                    </section>
+                  <section class="submission">
+                      <input type="submit" value="Send Message" onClick="myFunction()"/>
+                      <script>
+                        document.getElementById("myBtn").addEventListener("click", myFunction);
+                        function myFunction() {
+                          window.location.href="thankyoucontact.html";
+                        }
+                      </script>
+                  </section>
+                </form>
     </main>
 	<script src="index.js"></script>
   </body>
