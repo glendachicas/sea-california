@@ -492,3 +492,79 @@ input[type="checkbox"]{
      display: block;
     }
 
+/* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container,
+  .subscribe,
+  .container1,
+  footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the input elements and the submit button */
+ input[type=text].subscriber ,
+ input[type=submit].subscriber {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+   input[type=checkbox].subscriber  {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+   input[type=submit].subscriber {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover.subscriber {
+    opacity: 0.8;
+  }
+
+  .container{
+    float:left;
+  }
+
+  footer a{
+    float:right;
+  }
+
+  .contactfooter,
+  .contactfooterbot,
+  .jumptotop,
+  .jumptotopbot{
+    font-size: 2em;
+    margin-left: 2em;
+  }
+
+  @media screen and (max-width:1036px){
+    .contactfooter,
+    .jumptotop{
+        visibility: hidden;
+    }
+
+    .contactfooterbot,
+    .jumptotopbot{
+        float: left;
+    }
+}
+
+@media screen and (min-width:1036px){
+    .contactfooterbot,
+    .jumptotopbot{
+        visibility: hidden;
+    }
+
+}

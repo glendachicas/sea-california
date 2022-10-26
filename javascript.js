@@ -18,3 +18,12 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 13600 || document.documentElement.scrollTop > 13600) {
+    mybutton.style.display = "none";
+  } else {
+    mybutton.style.display = "block";
+  }
+}
