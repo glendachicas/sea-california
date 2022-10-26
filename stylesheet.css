@@ -346,6 +346,7 @@ form{
     justify-items: center;
     align-items: center;
     text-shadow: 0 5px 10px black;
+}
 
 input[type="checkbox"]
 {
@@ -369,17 +370,18 @@ input[type="checkbox"]
     opacity:.55;
   }
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: red; /* Add a dark-grey background on hover */
   }
-  @media screen and (max-width:734px){
+
+@media screen and (max-width:734px){
     #sf_calbanner,
     #lake_tahoe_calbanner,
-    #sonoma_calbanner
+    #sonoma_calbanner{
         line-height: 1.5em;
     }
-    #northcalplaces
-    {
+
+#northcalplaces{
         max-width: 1500px;
         max-width: 1500px;
         display: grid;
@@ -390,12 +392,15 @@ input[type="checkbox"]
         column-gap: 20px;
         margin: 22px;
     }
-    @media screen and (max-width:734px){
+
+@media screen and (max-width:734px){
         #sf_calbanner,
         #lake_tahoe_calbanner,
         #sonoma_calbanner{
             line-height: 1.5em;
         }
-    .footer {
+    }
+
+.footer{
      display: block;
     }
