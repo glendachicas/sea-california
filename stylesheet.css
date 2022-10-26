@@ -280,6 +280,24 @@ h3{
     align-items: center;
     text-shadow: 0 5px 10px black;
 }
+#lake_tahoe_calbanner{
+    background-image: url(https://images.unsplash.com/photo-1548954008-3b63c0ed31a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGFrZSUyMHRhaG9lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height:500px;
+    max-width: auto;
+    margin-top: 15px;
+    background-position: 75% 65%;
+    font-weight: 700;
+    font-size: 2.75rem;
+    color:white;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-shadow: 0 5px 10px black;
+}
 
 input[type="checkbox"]
 {
@@ -306,3 +324,19 @@ input[type="checkbox"]
   #myBtn:hover {
     background-color: red; /* Add a dark-grey background on hover */
   }
+  @media screen and (max-width:734px){
+    #sf_calbanner,
+    #lake_tahoe_calbanner,
+    #sonoma_calbanner
+        line-height: 1.5em;
+    }
+    #northcalplaces{
+        max-width: 1500px;
+        max-width: 1500px;
+        display: grid;
+        grid-template-areas: "san_francisco napavalley"
+                              "lake_tahoe" ;
+        grid-auto-flow: row;
+        row-gap: 20px;
+        column-gap: 20px;
+        margin: 22px;
