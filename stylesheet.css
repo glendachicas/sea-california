@@ -34,10 +34,141 @@ form{
     margin-bottom: 20px;
 }
 
+
+video{
+    max-width: 100%;
+    height: auto;
+}
+
+.image_500_700_1{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.image_500_700_2 {
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+    }
+
+.image_500_700_3{
+    height: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.image_325_500{
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 20px;
+}
+
+.image_200_300{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+
+.veniceimgs_large {
+    width: 700px;
+    height: 500px;
+    }
+
+.veniceimgs_med{
+    width: 500px;
+    height: 325px;
+}
+
+.veniceimgs_small{
+    width: 200px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1046px){
+    .image_325_500{
+        height: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        column-gap: 20px;
+        row-gap: 20px;
+        width: 100%
+    }
+    
+    .image_200_300{
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 20px;
+        row-gap: 20px;
+    
+    }
+}
+.youtube {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    display:grid;
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .venice_youtube {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+@media screen and (min-width:1028px){
+    .youtube{
+        display:grid;
+    }
+
+    .venice_youtube{
+        display:grid;
+        max-width:1000px;
+        max-height:600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+    
+
 .topnav{
     position: sticky;
     border: 5px solid gray;
-    width:320;
+    max-width:100%;
     padding:25px;
     margin:0;
     background-image:url('https://images.unsplash.com/photo-1559963169-0e22794c154e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80');
@@ -56,11 +187,50 @@ form{
     padding: 5px;
     width:auto;
     margin: 10px;
+    white-space: nowrap;
 }
 
-.navoptions:hover{
-    background-color: #fbb903;
+@media screen and (max-width: 835px){
+    .navoptions{
+        border:0px;
+    }
+
+    .home{
+        display:none;
+    }
+
+    a.navoptions,
+    a.home2{
+        text-decoration: none;
+    }
+
+    a.navoptions{
+        text-shadow: 1.25px 0 0 #fbb903, 0 -1.25px 0 #fbb903, 0 1.25px 0 #fbb903, -1.25px 0 0 #fbb903;
+
+    } 
 }
+
+@media screen and (max-width:1016px){
+    input[type="text"].searchbar{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 835px){
+    #home2{
+        display:none;
+    }
+
+    a.navoptions,
+    a.home2{
+        text-decoration: none;
+    }
+
+    .navoptions:hover{
+        background-color: #fbb903;
+    }
+}
+
 
 .topnav a{
     float:center;
@@ -251,7 +421,9 @@ form{
 @media screen and (max-width:734px){
     #unibanner,
     #olverabanner,
-    #venicebeachbanner{
+    #venicebeachbanner,
+    #socalbanner,
+    .north_calbanner{
         line-height: 1.5em;
     }
 }
@@ -313,6 +485,7 @@ form{
     justify-items: center;
     align-items: center;
     text-shadow: 0 5px 10px black;
+    margin-bottom: 25px;
 }
 
 #sf_calbanner{
@@ -461,12 +634,14 @@ input[type="checkbox"]{
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
-    opacity:.55;
+    opacity: .55;
   }
   
 #myBtn:hover {
     background-color: red; /* Add a dark-grey background on hover */
   }
+
+  
 
 @media screen and (max-width:734px){
     #sf_calbanner,
@@ -502,7 +677,7 @@ input[type="checkbox"]{
 
 /* Style the form element with a border around it */
 form {
-    border: 4px solid #f1f1f1;
+    border: 4px solid whitesmoke;
   }
   
   /* Add some padding and a grey background color to containers */
@@ -511,7 +686,7 @@ form {
   .container1,
   footer {
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: whitesmoke;
   }
   
   /* Style the input elements and the submit button */
@@ -521,7 +696,7 @@ form {
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     box-sizing: border-box;
   }
   
@@ -575,4 +750,8 @@ form {
         visibility: hidden;
     }
 
+}
+
+#connect{
+    background-color: whitesmoke;
 }
