@@ -260,6 +260,13 @@ video{
     color:black;
 }
 
+@media screen and (max-width:734px){
+    .navoptions{
+        border:0px;
+    }
+
+}
+
 #top_places{
     max-width: 1500px;
     display: grid;
@@ -436,6 +443,7 @@ video{
         line-height: 1.5em;
     }
 }
+
 
 #unibanner{
     background-image: url("https://img.traveltriangle.com/attachments/pictures/898523/original/universal-studios-hollywood.jpg?tr=w-1291,h-332");
