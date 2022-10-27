@@ -686,17 +686,19 @@ input[type="checkbox"]{
             line-height: 1.5em;
         }
     }
-
+/*
 .footer{
      display: block;
     }
 
-/* Style the form element with a border around it */
+ Style the form element with a border around it 
+
 form {
     border: 4px solid whitesmoke;
   }
   
-  /* Add some padding and a grey background color to containers */
+ Add some padding and a grey background color to containers
+
   .container,
   .subscribe,
   .container1,
@@ -705,7 +707,8 @@ form {
     background-color: whitesmoke;
   }
   
-  /* Style the input elements and the submit button */
+Style the input elements and the submit button 
+
  input[type=text].subscriber ,
  input[type=submit].subscriber {
     width: 100%;
@@ -716,12 +719,14 @@ form {
     box-sizing: border-box;
   }
   
-  /* Add margins to the checkbox */
+  Add margins to the checkbox 
+
    input[type=checkbox].subscriber  {
     margin-top: 16px;
   }
   
-  /* Style the submit button */
+Style the submit button 
+
    input[type=submit].subscriber {
     background-color: #04AA6D;
     color: white;
@@ -768,6 +773,9 @@ form {
 
 }
 
+*/
+
 #connect{
     background-color: whitesmoke;
+    margin-bottom: 100px;
 }
