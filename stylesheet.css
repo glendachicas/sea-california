@@ -34,6 +34,12 @@ form{
     margin-bottom: 20px;
 }
 
+
+video{
+    max-width: 100%;
+    height: auto;
+}
+
 .topnav{
     position: sticky;
     border: 5px solid gray;
@@ -75,6 +81,7 @@ form{
 
     a.navoptions{
         text-shadow: 1.25px 0 0 #fbb903, 0 -1.25px 0 #fbb903, 0 1.25px 0 #fbb903, -1.25px 0 0 #fbb903;
+
     } 
 }
 
