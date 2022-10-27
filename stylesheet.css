@@ -48,6 +48,8 @@ video{
     flex-direction: column;
     column-gap: 20px;
     row-gap: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .image_500_700_2 {
@@ -58,6 +60,8 @@ video{
     flex-direction: column;
     column-gap: 20px;
     row-gap: 20px;
+    max-width: 100%;
+    height: auto;
     }
 
 .image_500_700_3{
@@ -68,6 +72,8 @@ video{
     flex-direction: column;
     column-gap: 20px;
     row-gap: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .image_325_500{
@@ -77,33 +83,41 @@ video{
         justify-content: center;
         flex-direction: row;
         column-gap: 20px;
+        row-gap: 20px;
+        max-width: 100%;
+        height: auto;
 }
 
 .image_200_300{
-    height: 500px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     column-gap: 20px;
-    row-gap: 20px;
-
+    margin:20px;
+    max-width: 100%;
+    height: auto;
 }
 
 
 .veniceimgs_large {
     width: 700px;
     height: 500px;
+    max-width: 100%;
+    height: auto;
     }
 
 .veniceimgs_med{
     width: 500px;
     height: 325px;
+    max-width: 100%;
 }
 
 .veniceimgs_small{
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 1046px){
@@ -119,16 +133,18 @@ video{
     }
     
     .image_200_300{
-        height: 500px;
+        height: 700px;
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
         column-gap: 20px;
         row-gap: 20px;
-    
+        width:100%;
     }
+
 }
+
 .youtube {
     position: relative;
     overflow: hidden;
