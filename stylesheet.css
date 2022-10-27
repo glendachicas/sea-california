@@ -58,6 +58,32 @@ form{
     margin: 10px;
 }
 
+@media screen and (max-width: 835px){
+    .navoptions{
+        border:0px;
+    }
+
+    .home{
+        display:none;
+    }
+
+    a.navoptions,
+    a.home2{
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 835px){
+    #home2{
+        display:none;
+    }
+
+    a.navoptions,
+    a.home2{
+        text-decoration: none;
+    }
+}
+
 .navoptions:hover{
     background-color: #fbb903;
 }
