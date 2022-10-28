@@ -77,19 +77,33 @@ video{
 }
 
 .image_325_500{
-        height: 350px;
+        height: 750px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
         column-gap: 20px;
         row-gap: 20px;
-        max-width: 100%;
+        width: 100%;
         height: auto;
+        max-width: 1366px;
 }
 
-.image_200_300{
-    height: 200px;
+.image_200_300,
+.image_200_300_4{
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 20px;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.iflyuni{
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,20 +112,38 @@ video{
     margin:20px;
     max-width: 100%;
     height: auto;
+    
 }
 
-
-.veniceimgs_large {
-    width: 700px;
-    height: 500px;
-    max-width: 100%;
-    height: auto;
-    }
-
-.veniceimgs_med{
-    width: 500px;
+.imgs_medhalf{
+    width: 225px;
     height: 325px;
     max-width: 100%;
+}
+
+.imgs_medhalflonger{
+    width: 275px;
+    height: 325px;
+    max-width: 100%;
+}
+
+.veniceimgs_large {
+    max-width: 100%;
+    height: 500px;
+    width: 700px;
+    height:auto;
+    }
+
+.veniceimgs_larger{
+    width:100%;
+    max-height:700px;
+    max-width:500px;
+}
+
+.veniceimgs_med{
+    max-width: 500px;
+    max-height: 325px;
+    width:100%;
 }
 
 .veniceimgs_small{
@@ -129,20 +161,48 @@ video{
         flex-direction: column;
         column-gap: 20px;
         row-gap: 20px;
-        width: 100%
+        width: 100%;
+        height:auto;
     }
-    
+
     .image_200_300{
-        height: 700px;
+        max-height: 700px;
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         column-gap: 20px;
         row-gap: 20px;
         width:100%;
+        flex-wrap: wrap;
     }
 
+    .image_200_300_4{
+        max-height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 20px;
+        row-gap: 20px;
+        width:100%;
+        flex-wrap: wrap;
+    }
+
+    .iflyuni{
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 20px;
+        row-gap: 20px;
+        margin:20px;
+        max-width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        
+    }
 }
 
 .youtube {
