@@ -88,7 +88,8 @@ video{
         height: auto;
 }
 
-.image_200_300{
+.image_200_300,
+.image_200_300_4{
     max-height: 500px;
     display: flex;
     align-items: center;
@@ -129,7 +130,6 @@ video{
     width: 700px;
     height: 500px;
     max-width: 100%;
-    height: auto;
     }
 
 .veniceimgs_med{
@@ -158,6 +158,18 @@ video{
 
     .image_200_300{
         max-height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 20px;
+        row-gap: 20px;
+        width:100%;
+        flex-wrap: wrap;
+    }
+
+    .image_200_300_4{
+        max-height: 900px;
         display: flex;
         align-items: center;
         justify-content: center;
