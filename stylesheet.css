@@ -77,15 +77,16 @@ video{
 }
 
 .image_325_500{
-        height: 350px;
+        height: 750px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
         column-gap: 20px;
         row-gap: 20px;
-        max-width: 100%;
+        width: 100%;
         height: auto;
+        max-width: 1366px;
 }
 
 .image_200_300,
@@ -154,7 +155,8 @@ video{
         flex-direction: column;
         column-gap: 20px;
         row-gap: 20px;
-        width: 100%
+        width: 100%;
+        height:auto;
     }
 
     .image_200_300{
