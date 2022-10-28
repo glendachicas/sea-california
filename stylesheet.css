@@ -34,6 +34,15 @@ h3{
 video{
     max-width: 100%;
     height: auto;
+    display:grid;
+}
+figure{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:1000px;
+    display:grid;
+    align-content: center;
+    justify-content: center;
 }
 
 .image_500_700_1{
