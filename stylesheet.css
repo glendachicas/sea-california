@@ -98,6 +98,7 @@ video{
     margin:20px;
     max-width: 100%;
     height: auto;
+    
 }
 
 
@@ -131,18 +132,18 @@ video{
         row-gap: 20px;
         width: 100%
     }
-    
+
     .image_200_300{
-        height: 700px;
+        max-height: 700px;
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         column-gap: 20px;
         row-gap: 20px;
         width:100%;
+        flex-wrap: wrap;
     }
-
 }
 
 .youtube {
